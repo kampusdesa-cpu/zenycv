@@ -122,11 +122,14 @@
         .language-item {
             display: flex;
             justify-content: space-between;
-            max-width: 300px;
+            align-items: flex-start;
+            gap: 10px
+            max-width: 350px;
             margin-bottom: 10px;
         }
         .language-name {
             font-weight: 500;
+            width: 120px
         }
         .declaration {
             font-style: italic;
@@ -156,10 +159,14 @@
             </div>
             <div class="info-item">
                 <span class="info-label">Bahasa:</span><br>
-                <ul class="language-list">
-                    <li>Indonesia (Ibu/Bahasa Utama)</li>
-                    <li>Inggris (Bicara: Cukup, Tulis: Baik)</li>
-                </ul>
+                <div class="language-item">
+                    <span class="language-name">Indonesia</span>
+                    <span>(Ibu/Bahasa Utama)</span>
+                </div>
+                <div class="language-item">
+                    <span class="language-name">Inggris</span>
+                    <span>(Bicara: Cukup, Tulis: Baik</span>
+                </div>
             </div>
         </div>
     </div>
